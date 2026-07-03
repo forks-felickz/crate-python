@@ -2,6 +2,12 @@
 Changes for crate
 =================
 
+Unreleased
+================
+
+- Breaking change: ``connect()`` now raises ``ConnectionError`` immediately if
+no configured server node responds.
+
 2026/06/17 2.2.1
 ================
 
