@@ -78,7 +78,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: before.sarif
-          path: ${{runner.workspace}}/sarif-results/*.sarif
+          path: sarif-results/*.sarif
           
 
       # Unlock inline mechanism to suppress CodeQL warnings.
@@ -98,4 +98,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: after.sarif
-          path: ${{runner.workspace}}/sarif-results/*.sarif          
+          path: sarif-results/*.sarif          
