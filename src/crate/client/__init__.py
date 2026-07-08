@@ -42,7 +42,7 @@ try:
     __version__ = version(__appname__)
 except PackageNotFoundError:  # pragma: no cover
     __version__ = "unknown"
-
+
 # codeql[py/unused-global-variable]
 apilevel = "2.0"
 threadsafety = 1
